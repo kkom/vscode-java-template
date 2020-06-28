@@ -1,5 +1,7 @@
+.PHONY: compile
 compile:
-	javac -d target src/Main.java
+	javac -d target src/$(class).java
 
-run:
-	java -cp target src.Main
+.PHONY: run
+run: compile
+	java -cp target src.$(class)
