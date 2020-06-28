@@ -1,0 +1,12 @@
+{
+	"name": "Java",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home"
+	},
+	"extensions": [
+		"emeraldwalk.RunOnSave",
+		"vscjava.vscode-java-pack"
+	]
+}
